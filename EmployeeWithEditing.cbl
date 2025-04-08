@@ -64,7 +64,7 @@
                10  WS-CURRENT-SECOND       PIC 9(02).
                10  WS-CURRENT-MILLISECONDS PIC 9(02).
 
-       01  WS-FIELDS. 
+       01  WS-FIELDS-CALCULADO. 
            05 WS-TOTAL-EMP-LEIDOS              PIC 9(10).
            05 WS-TOTAL-EMP-GRABADOS            PIC 9(10).
            05 WS-TOTAL-EMP-SUELDO-ACTUAL       PIC S9(9)V99.
@@ -76,16 +76,8 @@
        01  WS-WORK-AREAS.
 		   05  FILE-CHECK-KEY    PIC X(2).
            05  WS-EMPLOYEE-COUNT PIC 9(5).
-           05  WS-INCREASE       PIC 9V99 VALUE 1.05.
            05 WS-NORMAL-NUMBER   PIC S9(9)V99.
            05 WS-COMP3-VALUE    PIC S9(9)V99 COMP-3.
-
-         
-       01  WS-DIRECCION-SALES.
-           05 WS-EAST            PIC 9(7) VALUE ZEROES.
-           05 WS-WEST            PIC 9(7) VALUE ZEROES.
-           05 WS-NORTH           PIC 9(7) VALUE ZEROES.
-           05 WS-SOUTH           PIC 9(7) VALUE ZEROES.
 
        01  HEADING-LINE-TITLE-1.
            05 FILLER              PIC X(132)  VALUE ALL '*'.
@@ -129,7 +121,7 @@
            05 FILLER               PIC X(5)  VALUE SPACES.
            05 DET-DIRECCION           PIC X(55).
            05 FILLER               PIC X(1)  VALUE SPACES.
-           05 DET-SUELDO      PIC $$$,$$$,$$9.99.
+           05 DET-SUELDO      PIC $ZZ,ZZZ,ZZ9.99.
       *     05 DET-EMP-LEIDOS      PIC 9,999.
            05 FILLER               PIC X(2)  VALUE SPACES.
 
@@ -146,7 +138,7 @@
            05 FILLER               PIC X(24)  
                VALUE 'Total Empleados Leidos: '.
            05 FILLER               PIC X(5)  VALUE SPACES.
-           05 TOTAL-EMP-LEIDOS     PIC 99.
+           05 TOTAL-EMP-LEIDOS     PIC Z9.
            05 FILLER               PIC X(48)  VALUE SPACES.
        
        01  TOTAL-LINE-EMP-GRABADOS.
@@ -156,7 +148,7 @@
            05 FILLER               PIC X(26)  
                VALUE 'Total Empleados Grabados: '.
            05 FILLER               PIC X(3)  VALUE SPACES.
-           05 TOTAL-EMP-GRABADOS     PIC 99.
+           05 TOTAL-EMP-GRABADOS     PIC Z9.
            05 FILLER               PIC X(50)  VALUE SPACES.
        
        01  TOTAL-LINE-SUELDO-ACTUAL.
@@ -166,7 +158,7 @@
            05 FILLER               PIC X(21)  
                VALUE 'Total Sueldo Actual: '.
            05 FILLER               PIC X(6)  VALUE SPACES.
-           05 TOTAL-SUELDO-ACTUAL     PIC $$,$$$,$$9.99.
+           05 TOTAL-SUELDO-ACTUAL     PIC $Z,ZZZ,ZZ9.99.
            05 FILLER               PIC X(47)  VALUE SPACES.
        
        01  TOTAL-LINE-SUELDO-INCREMENTADO.
@@ -175,7 +167,7 @@
            05 FILLER               PIC X(30)  VALUE SPACES.
            05 FILLER               PIC X(27)  
                VALUE 'Total Sueldo Incrementado: '.
-           05 TOTAL-SUELDO-INCREMENTADO PIC $$,$$$,$$9.99.
+           05 TOTAL-SUELDO-INCREMENTADO PIC $Z,ZZZ,ZZ9.99.
            05 FILLER               PIC X(53)  VALUE SPACES.
 
        PROCEDURE DIVISION.
