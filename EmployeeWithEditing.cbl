@@ -48,7 +48,6 @@
             05 NOMBRE-EMP    PIC X(40).
             05 DIRECCION-EMP PIC X(60).
             05 SUELDO-EMP    PIC S9(9)V99 COMP-3.
-      *      COMP-3.
             05 TIPO-EMP      PIC X.
             05 RESULTADO     PIC X(9).
 
@@ -75,7 +74,6 @@
 
        01  WS-WORK-AREAS.
 		   05  FILE-CHECK-KEY    PIC X(2).
-           05  WS-EMPLOYEE-COUNT PIC 9(5).
            05 WS-NORMAL-NUMBER   PIC S9(9)V99.
            05 WS-COMP3-VALUE    PIC S9(9)V99 COMP-3.
 
@@ -91,11 +89,11 @@
            05 FILLER              PIC X VALUE '*'.
 
        01  HEADING-LINE.
-           05 FILLER              PIC X(5) VALUE SPACES.
+           05 FILLER              PIC X(14) VALUE SPACES.
            05 FILLER              PIC X(15) VALUE 'NOMBRE EMPLEADO'.
-           05 FILLER              PIC X(30) VALUE SPACES.
+           05 FILLER              PIC X(34) VALUE SPACES.
            05 FILLER              PIC X(9)  VALUE 'DIRECCION'.
-           05 FILLER              PIC X(51) VALUE SPACES.
+           05 FILLER              PIC X(38) VALUE SPACES.
            05 FILLER              PIC X(6) VALUE 'SUELDO'.
            05 FILLER              PIC X(6) VALUE SPACES.
            05 HEAD-DATE.
@@ -107,12 +105,12 @@
 
        01  HEADING-LINE-2.
            05 FILLER              PIC X(5) VALUE SPACES.
-           05 FILLER              PIC X(15) VALUE '---------------'.
-           05 FILLER              PIC X(30) VALUE SPACES.
-           05 FILLER              PIC X(9)  VALUE '---------'.
-           05 FILLER              PIC X(51) VALUE SPACES.
-           05 FILLER              PIC X(6) VALUE '------'.
-           05 FILLER              PIC X(16) VALUE SPACES.
+           05 FILLER              PIC X(35) VALUE ALL '-'.
+           05 FILLER              PIC X(10) VALUE SPACES.
+           05 FILLER              PIC X(35)  VALUE ALL  '-'.
+           05 FILLER              PIC X(21) VALUE SPACES.
+           05 FILLER              PIC X(14) VALUE ALL '-'.
+           05 FILLER              PIC X(8) VALUE SPACES.
 
 
        01  DETAIL-LINE.
@@ -225,7 +223,7 @@
        0105-PROCESS-RECORDS-TO-WRITE-EMP-E.
            ADD 1 TO WS-TOTAL-EMP-GRABADOS.
            DISPLAY "SUELDO ACTUAL: ", SUELDO.
-           COMPUTE SUELDO = SUELDO * WS-INCREMENTO.
+           COMPUTE WS-NORMAL-NUMBER = SUELDO * WS-INCREMENTO.
            DISPLAY "SUELDO INCREMENTADO: ", WS-NORMAL-NUMBER.
            ADD WS-NORMAL-NUMBER TO WS-TOTAL-EMP-SUELDO-INCREMENTADO.
            MOVE NOMBRE-EMPLEADO TO DET-NOMBRE-EMPLEADO.
