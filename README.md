@@ -10,8 +10,8 @@ Los siguientes programas generan archivos de entrada con datos de empleados en f
 
 ## Programas de Lectura y Filtrado
 Los siguientes programas leen el archivo generado y procesan la información para generar reportes:
-- **EmployeeReadFileCreateReport.cbl**: Lee el archivo de empleados y genera un informe con los datos procesados.
-- **EMPLOYEE-READ-FILE-CREATE-RP1K.cbl**: Filtra los empleados con `type="E"` y genera un nuevo archivo con estos registros.
+- **EmployeeReadFileCreateReport.cbl**: Lee el archivo de empleados EMPLOYEE_INPUT_COMP-3.DAT y filtra los empleados con `tipo="E"` para generar un reporte con los datos procesados.
+- **EMPLOYEE-READ-FILE-CREATE-RP1K.cbl**: Lee el archivo de empleados EMPLOYEE_INPUT_COMP-3_1K.DAT y filtra los empleados con `tipo="E"` para generar un reporte con los datos procesados..
 
 ## Requisitos
 - COBOL Compiler compatible con COMP-3 (en este caso se creó con gnuCobol teniendo como SO Ubuntu en WSL).
