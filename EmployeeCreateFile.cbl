@@ -2,8 +2,8 @@
        PROGRAM-ID. EMPLOYEE-CREATE-FILE.
        AUTHOR.     JARS.
       ***************************************************************
-      *  This program reads a file containing employee person    *
-      *   sales information and prints a report.                    *
+      *  This program reads a file containing employee information  *
+      *   and creates a new file fir COMP-3 conversion.             *
       ***************************************************************
 
        ENVIRONMENT DIVISION.
