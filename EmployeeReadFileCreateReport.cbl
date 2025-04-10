@@ -1,6 +1,9 @@
        IDENTIFICATION DIVISION.
        PROGRAM-ID. EMPLOYEE-READ-FILE-CREATE-REP.
        AUTHOR.     JARS.
+       DATE-WRITTEN.              02/04/2025.
+       DATE-COMPILED.             10/04/2025.
+       SECURITY.                  NO ES CONFIDENCIAL.
       ***************************************************************
       *  This program reads a file containing employee information  *
       *   and prints a report and a file.                           *

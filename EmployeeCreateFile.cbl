@@ -1,6 +1,8 @@
        IDENTIFICATION DIVISION.
        PROGRAM-ID. EMPLOYEE-CREATE-FILE.
        AUTHOR.     JARS.
+       DATE-WRITTEN.              03/04/2025.
+       DATE-COMPILED.
       ***************************************************************
       *  This program reads a file containing employee information  *
       *   and creates a new file for COMP-3 conversion.             *
