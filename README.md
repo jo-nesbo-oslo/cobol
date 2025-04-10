@@ -28,6 +28,7 @@ Para compilar un programa COBOL, usar el siguiente comando:
 ```bash
 cobc -x [nombre_programa]
 ```
+
 Para ejecutar el programa compilado:
 
 ```bash
