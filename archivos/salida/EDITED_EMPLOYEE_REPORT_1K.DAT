@@ -1,0 +1,556 @@
+************************************************************************************************************************************
+*                                                 Reporte de Empleados Eventuales                                      Pagina:   1 *
+************************************************************************************************************************************
+              NOMBRE EMPLEADO                                  DIRECCION                                      SUELDO      10/04/2025
+     -----------------------------------          -----------------------------------                     --------------            
+     MARIA GOMEZ                                  CALLE BENITO JUAREZ 456                                 $    30,500.00            
+     ANA MARTINEZ                                 AVENIDA CHAPULTEPEC 321                                 $    20,300.00            
+     FERNANDO RAMIREZ                             CALLE FRANCISCO I. MADERO 987                           $    35,250.00            
+     ROBERTO CASTILLO                             CALLE DIEGO RIVERA 753                                  $    33,750.00            
+     ALEJANDRO MENDOZA                            CALLE IGNACIO ALLENDE 159                               $    50,000.00            
+     RICARDO DOMINGUEZ                            AVENIDA UNIVERSIDAD 987                                 $    42,000.00            
+     ENRIQUE VARGAS                               PASEO INTERLOMAS 321                                    $    41,750.00            
+     DANIELA GUTIERREZ                            AVENIDA POLANCO 369                                     $    45,250.00            
+     VALERIA CHAVEZ                               AVENIDA PATRIOTISMO 432                                 $    38,750.00            
+     ELENA NAVARRO                                CALLE ZARAGOZA 123                                      $    47,000.00            
+     NATALIA CORDOVA                              CALLE VICENTE GUERRERO 678                              $    27,500.00            
+     LUIS GALLARDO                                PASEO DE LA REFORMA 123                                 $    36,250.00            
+     ISABEL SOTO                                  AVENIDA JOSE MARIA MORELOS 321                          $    31,750.00            
+     ANDREA JUAREZ                                CALLE MELCHOR OCAMPO 987                                $    28,250.00            
+     ARTURO MORALES                               CALLE ADOLFO LOPEZ MATEOS 369                           $    50,250.00            
+     ROSALIA HERNANDEZ                            CALLE IGNACIO ALLENDE 789                               $    33,250.00            
+     FERNANDA VILLANUEVA                          AVENIDA UNIVERSIDAD 765                                 $    42,500.00            
+     VANESSA CARRILLO                             AVENIDA POLANCO 432                                     $    45,000.00            
+     CAMILA ALVARADO                              PASEO DE LA REFORMA 123                                 $    38,250.00            
+     MIREYA NAVARRO                               CALLE IGNACIO ZARAGOZA 654                              $    47,500.00            
+     SOFIA LOPEZ                                  AVENIDA LAZARO CARDENAS 876                             $    40,250.00            
+     GABRIELA RIVERA                              CALLE HIDALGO 765                                       $    48,000.00            
+     JULIA MORENO                                 CALLE REVOLUCION 987                                    $    32,500.00            
+     CECILIA RAMIREZ                              CALLE FRANCISCO I. MADERO 321                           $    31,250.00            
+     ISABEL GOMEZ                                 CALLE ZARAGOZA 369                                      $    50,750.00            
+     JESUS LOPEZ ALMEJO                           AVENIDA UNIVERSIDAD 765, TIJUANA, BC                    $    38,250.00            
+     LUCIA DOMINGUEZ                              CALLE BENITO JUAREZ 321                                 $    30,750.00            
+     NATALIA HERNANDEZ                            CALLE MIGUEL HIDALGO 987                                $    35,250.00            
+     VALERIA SANCHEZ                              AVENIDA CONSTITUYENTES 159                              $    28,500.00            
+     CAMILA FUENTES                               PASEO DE LOS ARCOS 543                                  $    39,500.00            
+     MARIA EUGENIA SALAZAR                        AVENIDA HIDALGO 654                                     $    29,500.00            
+     CECILIA RODRIGUEZ                            CALLE FRANCISCO I. MADERO 765                           $    38,000.00            
+     LORENA CASTILLO                              CALLE REVOLUCION 321                                    $    35,500.00            
+     ELENA VALENCIA                               AVENIDA UNIVERSIDAD 159                                 $    30,250.00            
+     GLENN DIESEN                                 SOUTHEASTERN UNIVERSITY NORWAY, NORWAY                  $    50,000.00            
+     MARTHA LOPEZ                                 AVENIDA SAN ANTONIO 432                                 $    29,750.00            
+     VERONICA MARTINEZ                            PASEO DE LOS TAMARINDOS 654                             $    39,250.00            
+     PAOLA NAVARRO                                AVENIDA ZARAGOZA 543                                    $    41,250.00            
+     GABRIELA SALGADO                             AVENIDA CHAPULTEPEC 321                                 $    47,750.00            
+     CAMILA CERVANTES                             PASEO DE LOS ARCOS 543                                  $    35,000.00            
+     SOLEDAD MORENO                               AVENIDA MIGUEL HIDALGO 654                              $    42,000.00            
+     PAULINA TREJO                                PASEO DE LA REFORMA 765                                 $    49,750.00            
+     LUZ HERNANDEZ                                AVENIDA CONSTITUYENTES 543                              $    46,500.00            
+     MONTSERRAT MARTINEZ                          PASEO DE LOS TAMARINDOS 159                             $    40,750.00            
+     ANDREW NAPOLITANO                            MANHATTAN AVENUE, NEW YORK                              $    50,500.00            
+     REGINA AGUILAR                               AVENIDA SAN ANTONIO 432                                 $    29,500.00            
+     ADRIANA SANDOVAL                             CALLE IGNACIO ALLENDE 654                               $    32,750.00            
+     ROSA ALONSO                                  PASEO DE LOS ARCOS 765                                  $    30,000.00            
+     TERESA MENDOZA                               AVENIDA CHAPULTEPEC 543                                 $    35,750.00            
+     VALENTINA DOMINGUEZ                          PASEO DE LA REFORMA 159                                 $    39,250.00            
+     GABRIELA MENDOZA                             AVENIDA CONSTITUYENTES 321                              $    40,250.00            
+     PATRICIA VILLARREAL                          PASEO DE LOS ARCOS 654                                  $    34,000.00            
+     MONICA LOPEZ                                 AVENIDA LAZARO CARDENAS 876                             $    37,750.00            
+     DIANA ESPINOZA                               PASEO INTERLOMAS 789                                    $    29,750.00            
+     SOFIA FUENTES                                AVENIDA SAN ANTONIO 654                                 $    31,500.00            
+************************************************************************************************************************************
+*                                                 Reporte de Empleados Eventuales                                      Pagina:   2 *
+************************************************************************************************************************************
+              NOMBRE EMPLEADO                                  DIRECCION                                      SUELDO      10/04/2025
+     -----------------------------------          -----------------------------------                     --------------            
+     CECILIA TREJO                                AVENIDA UNIVERSIDAD 369                                 $    42,000.00            
+     VALERIA NAVARRO                              PASEO DE LA REFORMA 876                                 $    48,250.00            
+     LUISA AGUILAR                                AVENIDA REVOLUCION 753                                  $    40,750.00            
+     ANDREA MORENO                                PASEO DE LOS TAMARINDOS 432                             $    44,500.00            
+     ISABEL VAZQUEZ                               AVENIDA CONSTITUYENTES 543                              $    41,000.00            
+     SOLEDAD CERVANTES                            AVENIDA MIGUEL HIDALGO 654                              $    39,250.00            
+     ISABEL MARTINEZ                              CALLE LAZARO CARDENAS 567                               $    30,000.00            
+     VERONICA PEREZ                               CALLE EMILIO PORTES GIL 432                             $    35,250.00            
+     MONICA NAVARRO                               CALLE BENITO JUAREZ 543                                 $    31,750.00            
+     DIANA DOMINGUEZ                              CALLE MIGUEL ALEMAN 987                                 $    50,000.00            
+     VANESSA GONZALEZ                             CALLE VICENTE GUERRERO 369                              $    33,750.00            
+     CAMILA ALONSO                                CALLE IGNACIO ZARAGOZA 876                              $    29,250.00            
+     ROSA MEJIA                                   PASEO DE LOS TAMARINDOS 654                             $    30,500.00            
+     NATALIA GUTIERREZ                            AVENIDA EMILIANO ZAPATA 765                             $    39,000.00            
+     SOFIA AGUILAR                                PASEO DE LA REFORMA 159                                 $    48,250.00            
+     MARIO MARTINEZ                               AVENIDA EMILIANO ZAPATA 654                             $    41,500.00            
+     ANDRES FUENTES                               PASEO DE LOS ARCOS 543                                  $    45,750.00            
+     JORGE CASTILLO                               AVENIDA SAN ANTONIO 432                                 $    48,000.00            
+     RAFAEL NAVARRO                               PASEO DE LA REFORMA 876                                 $    39,250.00            
+     HUGO AGUILAR                                 AVENIDA CONSTITUYENTES 765                              $    33,000.00            
+     VALENTINA GONZALEZ                           PASEO INTERLOMAS 369                                    $    29,750.00            
+     MONTSERRAT VILLARREAL                        AVENIDA REVOLUCION 876                                  $    30,250.00            
+     JIMENA CERVANTES                             PASEO DE LOS TAMARINDOS 654                             $    37,500.00            
+     CECILIA MARTINEZ                             AVENIDA UNIVERSIDAD 321                                 $    35,000.00            
+     ISABEL FUENTES                               AVENIDA EMILIANO ZAPATA 876                             $    39,750.00            
+     VANESSA SALAZAR                              AVENIDA MIGUEL HIDALGO 765                              $    31,750.00            
+     ISABEL TORRES                                PASEO DE LA REFORMA 987                                 $    34,250.00            
+     MONICA FUENTES                               CALLE EMILIO PORTES GIL 321                             $    38,750.00            
+     SOFIA NAVARRO                                CALLE VICENTE GUERRERO 876                              $    29,500.00            
+     VALENTINA CASTILLO                           CALLE LAZARO CARDENAS 159                               $    30,000.00            
+     CECILIA REYES                                AVENIDA UNIVERSIDAD 567                                 $    35,250.00            
+     JIMENA TREJO                                 PASEO DE LOS ARCOS 876                                  $    39,750.00            
+     ANDRES VILLARREAL                            AVENIDA REVOLUCION 321                                  $    36,000.00            
+     JORGE ALONSO                                 PASEO DE LA REFORMA 987                                 $    33,500.00            
+     EMILIO FUENTES                               AVENIDA CONSTITUYENTES 765                              $    38,000.00            
+     SOFIA CASTILLO                               AVENIDA JOSE MARIA MORELOS 765                          $    31,250.00            
+     VALERIA ALONSO                               PASEO DE LA REFORMA 543                                 $    34,750.00            
+     CECILIA SANDOVAL                             AVENIDA ZARAGOZA 159                                    $    38,500.00            
+     MONICA NAVARRO                               PASEO INTERLOMAS 432                                    $    30,750.00            
+     ISABEL AGUILAR                               AVENIDA BENITO JUAREZ 543                               $    35,500.00            
+     JIMENA DOMINGUEZ                             AVENIDA UNIVERSIDAD 765                                 $    33,500.00            
+     NATALIA MENDEZ                               PASEO DE LOS TAMARINDOS 654                             $    29,000.00            
+     ROSA CASTILLO                                AVENIDA CONSTITUYENTES 876                              $    39,750.00            
+     TERESA FUENTES                               PASEO DE LA REFORMA 765                                 $    36,500.00            
+     VALENTINA PEREZ                              AVENIDA MIGUEL HIDALGO 654                              $    38,250.00            
+     SOLEDAD REYES                                AVENIDA VICENTE GUERRERO 765                            $    31,500.00            
+     PAULINA FUENTES                              PASEO DE LA REFORMA 543                                 $    34,500.00            
+     LUCIA GUTIERREZ                              AVENIDA SAN ANTONIO 159                                 $    38,250.00            
+     CECILIA TREJO                                PASEO INTERLOMAS 432                                    $    30,000.00            
+     JIMENA SALGADO                               AVENIDA IGNACIO ZARAGOZA 543                            $    35,750.00            
+     REGINA NAVARRO                               AVENIDA UNIVERSIDAD 654                                 $    33,250.00            
+     ADRIANA VILLARREAL                           PASEO DE LOS ARCOS 876                                  $    39,500.00            
+     VERONICA AGUILAR                             AVENIDA EMILIANO ZAPATA 765                             $    36,750.00            
+     PAOLA DOMINGUEZ                              PASEO DE LA REFORMA 159                                 $    39,000.00            
+     GABRIELA FUENTES                             AVENIDA MIGUEL HIDALGO 876                              $    48,750.00            
+************************************************************************************************************************************
+*                                                 Reporte de Empleados Eventuales                                      Pagina:   3 *
+************************************************************************************************************************************
+              NOMBRE EMPLEADO                                  DIRECCION                                      SUELDO      10/04/2025
+     -----------------------------------          -----------------------------------                     --------------            
+     SOFIA CASTRO                                 AVENIDA MIGUEL HIDALGO 321                              $    38,750.00            
+     VALERIA HERNANDEZ                            PASEO DE LOS ARCOS 876                                  $    34,750.00            
+     CECILIA GUTIERREZ                            AVENIDA REVOLUCION 159                                  $    38,500.00            
+     MONICA SANDOVAL                              PASEO INTERLOMAS 432                                    $    30,750.00            
+     ISABEL ALONSO                                AVENIDA CONSTITUYENTES 987                              $    35,500.00            
+     JIMENA REYES                                 AVENIDA SAN ANTONIO 765                                 $    33,500.00            
+     NATALIA CERVANTES                            PASEO DE LA REFORMA 543                                 $    39,250.00            
+     ROSA CASTILLO                                AVENIDA UNIVERSIDAD 159                                 $    36,000.00            
+     TERESA DOMINGUEZ                             AVENIDA CHAPULTEPEC 432                                 $    37,250.00            
+     VALENTINA VILLARREAL                         PASEO DE LOS TAMARINDOS 876                             $    39,750.00            
+     ANA MARIA GUTIERREZ                          AVENIDA VICENTE GUERRERO 765                            $    38,250.00            
+     LUISA MARTINEZ                               PASEO DE LOS ARCOS 876                                  $    34,000.00            
+     MONICA FUENTES                               AVENIDA REVOLUCION 159                                  $    38,750.00            
+     CECILIA TORRES                               PASEO INTERLOMAS 432                                    $    30,500.00            
+     ISABEL ALONSO                                AVENIDA CONSTITUYENTES 987                              $    35,750.00            
+     JIMENA AGUILAR                               AVENIDA FRANCISCO VILLA 321                             $    33,500.00            
+     NATALIA DOMINGUEZ                            PASEO DE LA REFORMA 876                                 $    39,000.00            
+     ROSA CASTILLO                                AVENIDA UNIVERSIDAD 159                                 $    36,750.00            
+     TERESA PEREZ                                 AVENIDA CHAPULTEPEC 432                                 $    37,000.00            
+     VALENTINA GUTIERREZ                          PASEO DE LOS TAMARINDOS 876                             $    39,500.00            
+     VANESSA MORALES                              AVENIDA MIGUEL HIDALGO 654                              $    32,500.00            
+     ISABEL MARTINEZ                              PASEO DE LOS ARCOS 765                                  $    35,000.00            
+     MONICA FUENTES                               AVENIDA REVOLUCION 876                                  $    38,000.00            
+     SOFIA NAVARRO                                PASEO INTERLOMAS 369                                    $    30,750.00            
+     VALENTINA CASTILLO                           AVENIDA CONSTITUYENTES 987                              $    35,750.00            
+     CECILIA REYES                                AVENIDA SAN ANTONIO 765                                 $    33,500.00            
+     JIMENA TREJO                                 PASEO DE LA REFORMA 876                                 $    39,500.00            
+     ANDRES VILLARREAL                            AVENIDA UNIVERSIDAD 543                                 $    36,250.00            
+     JORGE ALONSO                                 PASEO DE LOS ARCOS 432                                  $    37,000.00            
+     EMILIO FUENTES                               AVENIDA CHAPULTEPEC 654                                 $    39,750.00            
+     MARIA GONZALEZ                               AVENIDA CONSTITUYENTES 543                              $    39,250.00            
+     ANA MARTINEZ                                 PASEO DE LOS ARCOS 876                                  $    34,500.00            
+     SOFIA CASTILLO                               AVENIDA REVOLUCION 321                                  $    38,750.00            
+     FERNANDA MORALES                             PASEO INTERLOMAS 765                                    $    30,750.00            
+     CAMILA DOMINGUEZ                             AVENIDA SAN ANTONIO 654                                 $    35,500.00            
+     VALERIA TREJO                                AVENIDA MIGUEL HIDALGO 543                              $    33,750.00            
+     MIREYA NAVARRO                               PASEO DE LA REFORMA 159                                 $    39,500.00            
+     GABRIELA SALAZAR                             AVENIDA UNIVERSIDAD 543                                 $    36,500.00            
+     MONTSERRAT AGUILAR                           AVENIDA CHAPULTEPEC 432                                 $    37,250.00            
+     TERESA MENDEZ                                PASEO DE LOS TAMARINDOS 654                             $    39,750.00            
+     MARIA SALAZAR                                AVENIDA CONSTITUYENTES 543                              $    37,250.00            
+     ANA FUENTES                                  PASEO DE LOS ARCOS 876                                  $    34,750.00            
+     SOFIA MENDEZ                                 AVENIDA REVOLUCION 765                                  $    38,500.00            
+     FERNANDA TORRES                              PASEO INTERLOMAS 432                                    $    31,250.00            
+     CAMILA TREJO                                 AVENIDA SAN ANTONIO 654                                 $    35,000.00            
+     VALERIA GUTIERREZ                            AVENIDA MIGUEL HIDALGO 543                              $    33,500.00            
+     MIREYA NAVARRO                               PASEO DE LA REFORMA 159                                 $    39,750.00            
+     GABRIELA SALAZAR                             AVENIDA UNIVERSIDAD 543                                 $    36,750.00            
+     MONTSERRAT AGUILAR                           AVENIDA CHAPULTEPEC 432                                 $    37,500.00            
+     TERESA VILLANUEVA                            PASEO DE LOS TAMARINDOS 654                             $    39,500.00            
+     VANESSA MORALES                              AVENIDA CONSTITUYENTES 432                              $    37,000.00            
+     ISABEL MARTINEZ                              PASEO DE LOS ARCOS 765                                  $    35,750.00            
+     MONICA FUENTES                               AVENIDA REVOLUCION 654                                  $    38,250.00            
+     SOFIA NAVARRO                                PASEO INTERLOMAS 369                                    $    30,500.00            
+     VALENTINA CASTILLO                           AVENIDA SAN ANTONIO 432                                 $    35,250.00            
+************************************************************************************************************************************
+*                                                 Reporte de Empleados Eventuales                                      Pagina:   4 *
+************************************************************************************************************************************
+              NOMBRE EMPLEADO                                  DIRECCION                                      SUELDO      10/04/2025
+     -----------------------------------          -----------------------------------                     --------------            
+     CECILIA REYES                                AVENIDA ZARAGOZA 876                                    $    33,000.00            
+     JIMENA TREJO                                 PASEO DE LA REFORMA 543                                 $    39,250.00            
+     ANDRES VILLARREAL                            AVENIDA UNIVERSIDAD 432                                 $    36,750.00            
+     JORGE ALONSO                                 PASEO DE LOS TAMARINDOS 654                             $    37,500.00            
+     EMILIO FUENTES                               AVENIDA CHAPULTEPEC 543                                 $    39,750.00            
+     SOFIA CASTRO                                 AVENIDA CONSTITUYENTES 432                              $    37,250.00            
+     VALERIA SALAZAR                              PASEO DE LOS ARCOS 765                                  $    35,750.00            
+     CECILIA FUENTES                              AVENIDA REVOLUCION 654                                  $    38,500.00            
+     MONICA TORRES                                PASEO INTERLOMAS 369                                    $    30,500.00            
+     ISABEL MENDEZ                                AVENIDA SAN ANTONIO 432                                 $    35,250.00            
+     JIMENA AGUILAR                               AVENIDA ZARAGOZA 876                                    $    33,000.00            
+     NATALIA MARTINEZ                             PASEO DE LA REFORMA 543                                 $    39,250.00            
+     ROSA DOMINGUEZ                               AVENIDA UNIVERSIDAD 432                                 $    36,750.00            
+     TERESA NAVARRO                               PASEO DE LOS TAMARINDOS 654                             $    37,500.00            
+     VALENTINA TREJO                              AVENIDA CHAPULTEPEC 543                                 $    39,750.00            
+     VANESSA CASTRO                               AVENIDA CONSTITUYENTES 765                              $    37,750.00            
+     ISABEL MARTINEZ                              PASEO DE LOS ARCOS 876                                  $    35,250.00            
+     MONICA SALAZAR                               AVENIDA REVOLUCION 765                                  $    38,500.00            
+     SOFIA SANDOVAL                               PASEO INTERLOMAS 432                                    $    30,500.00            
+     VALENTINA MENDEZ                             AVENIDA SAN ANTONIO 987                                 $    35,500.00            
+     CECILIA VILLANUEVA                           AVENIDA ZARAGOZA 543                                    $    33,000.00            
+     JIMENA AGUILAR                               PASEO DE LA REFORMA 876                                 $    39,250.00            
+     ANDRES CASTILLO                              AVENIDA UNIVERSIDAD 543                                 $    36,750.00            
+     JORGE FUENTES                                PASEO DE LOS TAMARINDOS 654                             $    37,500.00            
+     EMILIO SANCHEZ                               AVENIDA CHAPULTEPEC 543                                 $    39,750.00            
+     SOFIA DOMINGUEZ                              AVENIDA CONSTITUYENTES 765                              $    37,250.00            
+     VALERIA CASTILLO                             PASEO DE LOS ARCOS 876                                  $    35,750.00            
+     CECILIA SANDOVAL                             AVENIDA REVOLUCION 765                                  $    38,500.00            
+     MONICA GUTIERREZ                             PASEO INTERLOMAS 432                                    $    30,500.00            
+     ISABEL MENDEZ                                AVENIDA SAN ANTONIO 432                                 $    35,500.00            
+     JIMENA AGUILAR                               AVENIDA ZARAGOZA 876                                    $    33,000.00            
+     NATALIA MARTINEZ                             PASEO DE LA REFORMA 543                                 $    39,250.00            
+     ROSA VILLARREAL                              AVENIDA UNIVERSIDAD 432                                 $    36,750.00            
+     TERESA CERVANTES                             PASEO DE LOS TAMARINDOS 654                             $    37,500.00            
+     VALENTINA TREJO                              AVENIDA CHAPULTEPEC 543                                 $    39,750.00            
+     SOLEDAD CASTRO                               AVENIDA MIGUEL HIDALGO 432                              $    37,750.00            
+     PAULINA MARTINEZ                             PASEO DE LOS ARCOS 876                                  $    35,000.00            
+     LUCIA REYES                                  AVENIDA REVOLUCION 765                                  $    38,500.00            
+     CECILIA VILLANUEVA                           PASEO INTERLOMAS 432                                    $    30,750.00            
+     JIMENA TREJO                                 AVENIDA SAN ANTONIO 654                                 $    35,250.00            
+     REGINA SALAZAR                               AVENIDA UNIVERSIDAD 876                                 $    33,500.00            
+     ADRIANA FUENTES                              PASEO DE LA REFORMA 543                                 $    39,500.00            
+     VERONICA AGUILAR                             AVENIDA ZARAGOZA 321                                    $    36,750.00            
+     PAOLA PEREZ                                  PASEO DE LOS TAMARINDOS 432                             $    37,250.00            
+     GABRIELA MARTINEZ                            AVENIDA CHAPULTEPEC 654                                 $    39,750.00            
+     MARIO MARTINEZ                               AVENIDA MIGUEL HIDALGO 654                              $    41,500.00            
+     ANDRES FUENTES                               PASEO DE LOS ARCOS 543                                  $    45,750.00            
+     JORGE CASTILLO                               AVENIDA SAN ANTONIO 432                                 $    48,000.00            
+     RAFAEL NAVARRO                               PASEO DE LA REFORMA 876                                 $    39,250.00            
+     HUGO AGUILAR                                 AVENIDA CONSTITUYENTES 765                              $    33,000.00            
+     VALENTINA GONZALEZ                           PASEO INTERLOMAS 369                                    $    29,750.00            
+     MONTSERRAT VILLARREAL                        AVENIDA REVOLUCION 876                                  $    30,250.00            
+     JIMENA CERVANTES                             PASEO DE LOS TAMARINDOS 654                             $    37,500.00            
+     CECILIA MARTINEZ                             AVENIDA UNIVERSIDAD 321                                 $    35,000.00            
+     ISABEL FUENTES                               AVENIDA EMILIANO ZAPATA 876                             $    39,750.00            
+************************************************************************************************************************************
+*                                                 Reporte de Empleados Eventuales                                      Pagina:   5 *
+************************************************************************************************************************************
+              NOMBRE EMPLEADO                                  DIRECCION                                      SUELDO      10/04/2025
+     -----------------------------------          -----------------------------------                     --------------            
+     SOLEDAD CASTRO                               AVENIDA MIGUEL HIDALGO 876                              $    37,250.00            
+     PAULINA MARTINEZ                             PASEO DE LOS ARCOS 765                                  $    35,500.00            
+     LUCIA REYES                                  AVENIDA REVOLUCION 987                                  $    38,000.00            
+     CECILIA VILLANUEVA                           PASEO INTERLOMAS 432                                    $    30,750.00            
+     JIMENA TREJO                                 AVENIDA SAN ANTONIO 321                                 $    35,000.00            
+     REGINA SALAZAR                               AVENIDA UNIVERSIDAD 543                                 $    33,500.00            
+     ADRIANA FUENTES                              PASEO DE LA REFORMA 765                                 $    39,500.00            
+     VERONICA AGUILAR                             AVENIDA ZARAGOZA 321                                    $    36,750.00            
+     PAOLA PEREZ                                  PASEO DE LOS TAMARINDOS 432                             $    37,250.00            
+     GABRIELA MARTINEZ                            AVENIDA CHAPULTEPEC 654                                 $    39,750.00            
+     VANESSA MARTINEZ                             AVENIDA CONSTITUYENTES 654                              $    37,750.00            
+     ISABEL SALAZAR                               PASEO DE LOS ARCOS 765                                  $    35,000.00            
+     MONICA CASTILLO                              AVENIDA REVOLUCION 432                                  $    38,500.00            
+     SOFIA SANDOVAL                               PASEO INTERLOMAS 765                                    $    30,750.00            
+     VALENTINA MENDEZ                             AVENIDA SAN ANTONIO 876                                 $    35,500.00            
+     CECILIA VILLANUEVA                           AVENIDA ZARAGOZA 543                                    $    33,000.00            
+     JIMENA AGUILAR                               PASEO DE LA REFORMA 432                                 $    39,250.00            
+     ANDRES CASTILLO                              AVENIDA UNIVERSIDAD 543                                 $    36,750.00            
+     JORGE FUENTES                                PASEO DE LOS TAMARINDOS 654                             $    37,250.00            
+     EMILIO SANCHEZ                               AVENIDA CHAPULTEPEC 543                                 $    39,750.00            
+     SOFIA DOMINGUEZ                              AVENIDA CONSTITUYENTES 765                              $    37,250.00            
+     VALERIA CASTILLO                             PASEO DE LOS ARCOS 876                                  $    35,750.00            
+     CECILIA SANDOVAL                             AVENIDA REVOLUCION 765                                  $    38,500.00            
+     MONICA GUTIERREZ                             PASEO INTERLOMAS 432                                    $    30,500.00            
+     ISABEL MENDEZ                                AVENIDA SAN ANTONIO 432                                 $    35,500.00            
+     JIMENA AGUILAR                               AVENIDA ZARAGOZA 876                                    $    33,000.00            
+     NATALIA MARTINEZ                             PASEO DE LA REFORMA 543                                 $    39,250.00            
+     ROSA VILLARREAL                              AVENIDA UNIVERSIDAD 432                                 $    36,750.00            
+     TERESA CERVANTES                             PASEO DE LOS TAMARINDOS 654                             $    37,500.00            
+     VALENTINA TREJO                              AVENIDA CHAPULTEPEC 543                                 $    39,750.00            
+     VANESSA GUTIERREZ                            AVENIDA CONSTITUYENTES 654                              $    37,750.00            
+     ISABEL TREJO                                 PASEO DE LOS ARCOS 765                                  $    35,000.00            
+     MONICA CASTILLO                              AVENIDA REVOLUCION 432                                  $    38,500.00            
+     SOFIA SANDOVAL                               PASEO INTERLOMAS 765                                    $    30,750.00            
+     VALENTINA MENDEZ                             AVENIDA SAN ANTONIO 876                                 $    35,500.00            
+     CECILIA VILLANUEVA                           AVENIDA ZARAGOZA 543                                    $    33,000.00            
+     JIMENA AGUILAR                               PASEO DE LA REFORMA 432                                 $    39,250.00            
+     ANDRES CASTILLO                              AVENIDA UNIVERSIDAD 543                                 $    36,750.00            
+     JORGE FUENTES                                PASEO DE LOS TAMARINDOS 654                             $    37,250.00            
+     EMILIO SANCHEZ                               AVENIDA CHAPULTEPEC 543                                 $    39,750.00            
+     VANESSA CASTILLO                             AVENIDA CONSTITUYENTES 765                              $    37,500.00            
+     ISABEL MARTINEZ                              PASEO DE LOS ARCOS 876                                  $    35,250.00            
+     MONICA SALAZAR                               AVENIDA REVOLUCION 654                                  $    38,750.00            
+     SOFIA SANDOVAL                               PASEO INTERLOMAS 432                                    $    30,250.00            
+     VALENTINA MENDEZ                             AVENIDA SAN ANTONIO 876                                 $    35,750.00            
+     CECILIA VILLANUEVA                           AVENIDA ZARAGOZA 321                                    $    33,500.00            
+     JIMENA AGUILAR                               PASEO DE LA REFORMA 543                                 $    39,500.00            
+     ANDRES CASTILLO                              AVENIDA UNIVERSIDAD 654                                 $    36,250.00            
+     JORGE FUENTES                                PASEO DE LOS TAMARINDOS 432                             $    37,750.00            
+     EMILIO SANCHEZ                               AVENIDA CHAPULTEPEC 543                                 $    39,750.00            
+     VANESSA SALAZAR                              AVENIDA CONSTITUYENTES 765                              $    37,750.00            
+     ISABEL TORRES                                PASEO DE LOS ARCOS 876                                  $    35,000.00            
+     MONICA FUENTES                               AVENIDA REVOLUCION 159                                  $    38,500.00            
+     SOFIA NAVARRO                                PASEO INTERLOMAS 432                                    $    30,750.00            
+     VALENTINA CASTILLO                           AVENIDA BENITO JUAREZ 987                               $    35,500.00            
+************************************************************************************************************************************
+*                                                 Reporte de Empleados Eventuales                                      Pagina:   6 *
+************************************************************************************************************************************
+              NOMBRE EMPLEADO                                  DIRECCION                                      SUELDO      10/04/2025
+     -----------------------------------          -----------------------------------                     --------------            
+     CECILIA REYES                                AVENIDA ZARAGOZA 321                                    $    33,000.00            
+     JIMENA TREJO                                 PASEO DE LA REFORMA 543                                 $    39,250.00            
+     ANDRES VILLARREAL                            AVENIDA UNIVERSIDAD 432                                 $    36,750.00            
+     JORGE ALONSO                                 PASEO DE LOS TAMARINDOS 654                             $    37,250.00            
+     EMILIO FUENTES                               AVENIDA CHAPULTEPEC 543                                 $    39,750.00            
+     SOFIA DOMINGUEZ                              AVENIDA CONSTITUYENTES 654                              $    37,500.00            
+     VALERIA CASTILLO                             PASEO DE LOS ARCOS 432                                  $    35,500.00            
+     CECILIA SANDOVAL                             AVENIDA REVOLUCION 987                                  $    38,750.00            
+     MONICA GUTIERREZ                             PASEO INTERLOMAS 654                                    $    30,750.00            
+     ISABEL MENDEZ                                AVENIDA SAN ANTONIO 876                                 $    35,250.00            
+     JIMENA AGUILAR                               AVENIDA ZARAGOZA 765                                    $    33,000.00            
+     NATALIA MARTINEZ                             PASEO DE LA REFORMA 543                                 $    39,750.00            
+     ROSA VILLARREAL                              AVENIDA UNIVERSIDAD 543                                 $    36,500.00            
+     TERESA CERVANTES                             PASEO DE LOS TAMARINDOS 654                             $    37,750.00            
+     VALENTINA TREJO                              AVENIDA CHAPULTEPEC 543                                 $    39,500.00            
+     VANESSA GUTIERREZ                            AVENIDA CONSTITUYENTES 765                              $    37,500.00            
+     ISABEL TREJO                                 PASEO DE LOS ARCOS 876                                  $    35,250.00            
+     MONICA CASTILLO                              AVENIDA REVOLUCION 654                                  $    38,500.00            
+     SOFIA SANDOVAL                               PASEO INTERLOMAS 432                                    $    30,750.00            
+     VALENTINA MENDEZ                             AVENIDA SAN ANTONIO 876                                 $    35,500.00            
+     CECILIA VILLANUEVA                           AVENIDA ZARAGOZA 543                                    $    33,000.00            
+     JIMENA AGUILAR                               PASEO DE LA REFORMA 432                                 $    39,250.00            
+     ANDRES CASTILLO                              AVENIDA UNIVERSIDAD 543                                 $    36,750.00            
+     JORGE FUENTES                                PASEO DE LOS TAMARINDOS 654                             $    37,250.00            
+     EMILIO SANCHEZ                               AVENIDA CHAPULTEPEC 543                                 $    39,750.00            
+     SOLEDAD CASTILLO                             AVENIDA CONSTITUYENTES 765                              $    37,750.00            
+     PAULINA MARTINEZ                             PASEO DE LOS ARCOS 876                                  $    35,000.00            
+     LUCIA REYES                                  AVENIDA REVOLUCION 159                                  $    38,500.00            
+     CECILIA VILLANUEVA                           PASEO INTERLOMAS 432                                    $    30,750.00            
+     JIMENA TREJO                                 AVENIDA BENITO JUAREZ 987                               $    35,500.00            
+     REGINA SALAZAR                               AVENIDA ZARAGOZA 321                                    $    33,000.00            
+     ADRIANA FUENTES                              PASEO DE LA REFORMA 543                                 $    39,250.00            
+     VERONICA AGUILAR                             AVENIDA UNIVERSIDAD 432                                 $    36,750.00            
+     PAOLA PEREZ                                  PASEO DE LOS TAMARINDOS 654                             $    37,250.00            
+     GABRIELA MARTINEZ                            AVENIDA CHAPULTEPEC 543                                 $    39,750.00            
+     VANESSA GUTIERREZ                            AVENIDA CONSTITUYENTES 543                              $    37,250.00            
+     ISABEL TREJO                                 PASEO DE LOS ARCOS 876                                  $    35,750.00            
+     MONICA CASTILLO                              AVENIDA REVOLUCION 432                                  $    38,500.00            
+     SOFIA SANDOVAL                               PASEO INTERLOMAS 654                                    $    30,750.00            
+     VALENTINA MENDEZ                             AVENIDA SAN ANTONIO 876                                 $    35,500.00            
+     CECILIA VILLANUEVA                           AVENIDA ZARAGOZA 543                                    $    33,500.00            
+     JIMENA AGUILAR                               PASEO DE LA REFORMA 876                                 $    39,500.00            
+     ANDRES CASTILLO                              AVENIDA UNIVERSIDAD 543                                 $    36,750.00            
+     JORGE FUENTES                                PASEO DE LOS TAMARINDOS 654                             $    37,250.00            
+     EMILIO SANCHEZ                               AVENIDA CHAPULTEPEC 543                                 $    39,750.00            
+     SOFIA DOMINGUEZ                              AVENIDA CONSTITUYENTES 432                              $    37,250.00            
+     VALERIA CASTILLO                             PASEO DE LOS ARCOS 765                                  $    35,750.00            
+     CECILIA SANDOVAL                             AVENIDA REVOLUCION 654                                  $    38,500.00            
+     MONICA GUTIERREZ                             PASEO INTERLOMAS 369                                    $    30,500.00            
+     ISABEL MENDEZ                                AVENIDA SAN ANTONIO 432                                 $    35,500.00            
+     JIMENA AGUILAR                               AVENIDA ZARAGOZA 876                                    $    33,000.00            
+     NATALIA MARTINEZ                             PASEO DE LA REFORMA 543                                 $    39,250.00            
+     ROSA VILLARREAL                              AVENIDA UNIVERSIDAD 432                                 $    36,750.00            
+     TERESA CERVANTES                             PASEO DE LOS TAMARINDOS 654                             $    37,500.00            
+     VALENTINA TREJO                              AVENIDA CHAPULTEPEC 543                                 $    39,750.00            
+************************************************************************************************************************************
+*                                                 Reporte de Empleados Eventuales                                      Pagina:   7 *
+************************************************************************************************************************************
+              NOMBRE EMPLEADO                                  DIRECCION                                      SUELDO      10/04/2025
+     -----------------------------------          -----------------------------------                     --------------            
+     SOLEDAD CASTRO                               AVENIDA CONSTITUYENTES 765                              $    37,750.00            
+     PAULINA MARTINEZ                             PASEO DE LOS ARCOS 876                                  $    35,000.00            
+     LUCIA REYES                                  AVENIDA REVOLUCION 159                                  $    38,500.00            
+     CECILIA VILLANUEVA                           PASEO INTERLOMAS 432                                    $    30,750.00            
+     JIMENA TREJO                                 AVENIDA BENITO JUAREZ 987                               $    35,500.00            
+     REGINA SALAZAR                               AVENIDA ZARAGOZA 321                                    $    33,000.00            
+     ADRIANA FUENTES                              PASEO DE LA REFORMA 543                                 $    39,250.00            
+     VERONICA AGUILAR                             AVENIDA UNIVERSIDAD 432                                 $    36,750.00            
+     PAOLA PEREZ                                  PASEO DE LOS TAMARINDOS 654                             $    37,250.00            
+     GABRIELA MARTINEZ                            AVENIDA CHAPULTEPEC 543                                 $    39,750.00            
+     VANESSA MARTINEZ                             AVENIDA CONSTITUYENTES 654                              $    37,750.00            
+     ISABEL SALAZAR                               PASEO DE LOS ARCOS 765                                  $    35,000.00            
+     MONICA CASTILLO                              AVENIDA REVOLUCION 432                                  $    38,500.00            
+     SOFIA SANDOVAL                               PASEO INTERLOMAS 765                                    $    30,750.00            
+     VALENTINA MENDEZ                             AVENIDA SAN ANTONIO 876                                 $    35,500.00            
+     CECILIA VILLANUEVA                           AVENIDA ZARAGOZA 543                                    $    33,000.00            
+     JIMENA AGUILAR                               PASEO DE LA REFORMA 432                                 $    39,250.00            
+     ANDRES CASTILLO                              AVENIDA UNIVERSIDAD 543                                 $    36,750.00            
+     JORGE FUENTES                                PASEO DE LOS TAMARINDOS 654                             $    37,250.00            
+     EMILIO SANCHEZ                               AVENIDA CHAPULTEPEC 543                                 $    39,750.00            
+     SOFIA CASTILLO                               AVENIDA REVOLUCION 765                                  $    37,750.00            
+     VALERIA GONZALEZ                             PASEO DE LOS ARCOS 432                                  $    35,750.00            
+     CECILIA MARTINEZ                             AVENIDA UNIVERSIDAD 654                                 $    38,500.00            
+     MONICA FUENTES                               PASEO INTERLOMAS 321                                    $    30,750.00            
+     ISABEL REYES                                 AVENIDA SAN ANTONIO 876                                 $    35,250.00            
+     JIMENA MENDEZ                                AVENIDA ZARAGOZA 765                                    $    33,500.00            
+     NATALIA DOMINGUEZ                            PASEO DE LA REFORMA 876                                 $    39,250.00            
+     ROSA CERVANTES                               AVENIDA CHAPULTEPEC 543                                 $    36,750.00            
+     TERESA PEREZ                                 PASEO DE LOS TAMARINDOS 765                             $    37,500.00            
+     VALENTINA SALAZAR                            AVENIDA MIGUEL ALEMAN 432                               $    39,750.00            
+     SOFIA DOMINGUEZ                              AVENIDA CONSTITUYENTES 765                              $    37,250.00            
+     VALERIA CASTILLO                             PASEO DE LOS ARCOS 876                                  $    35,750.00            
+     CECILIA SANDOVAL                             AVENIDA REVOLUCION 654                                  $    38,500.00            
+     MONICA GUTIERREZ                             PASEO INTERLOMAS 369                                    $    30,500.00            
+     ISABEL MENDEZ                                AVENIDA SAN ANTONIO 432                                 $    35,500.00            
+     JIMENA AGUILAR                               AVENIDA ZARAGOZA 876                                    $    33,000.00            
+     NATALIA MARTINEZ                             PASEO DE LA REFORMA 543                                 $    39,250.00            
+     ROSA VILLARREAL                              AVENIDA UNIVERSIDAD 432                                 $    36,750.00            
+     TERESA CERVANTES                             PASEO DE LOS TAMARINDOS 654                             $    37,500.00            
+     VALENTINA TREJO                              AVENIDA CHAPULTEPEC 543                                 $    39,750.00            
+     SOFIA CASTILLO                               AVENIDA REVOLUCION 765                                  $    37,500.00            
+     VALERIA GONZALEZ                             PASEO DE LOS ARCOS 432                                  $    35,750.00            
+     CECILIA MARTINEZ                             AVENIDA UNIVERSIDAD 654                                 $    38,500.00            
+     MONICA FUENTES                               PASEO INTERLOMAS 321                                    $    30,750.00            
+     ISABEL REYES                                 AVENIDA SAN ANTONIO 876                                 $    35,250.00            
+     JIMENA MENDEZ                                AVENIDA ZARAGOZA 765                                    $    33,500.00            
+     NATALIA DOMINGUEZ                            PASEO DE LA REFORMA 876                                 $    39,250.00            
+     ROSA CERVANTES                               AVENIDA CHAPULTEPEC 543                                 $    36,750.00            
+     TERESA PEREZ                                 PASEO DE LOS TAMARINDOS 765                             $    37,500.00            
+     VALENTINA SALAZAR                            AVENIDA MIGUEL ALEMAn 432                               $    39,750.00            
+     SOFIA CASTILLO                               AVENIDA CONSTITUYENTES 765                              $    37,750.00            
+     VALERIA GONZALEZ                             PASEO DE LOS ARCOS 543                                  $    35,500.00            
+     CECILIA MARTINEZ                             AVENIDA UNIVERSIDAD 654                                 $    38,500.00            
+     MONICA FUENTES                               PASEO INTERLOMAS 321                                    $    30,750.00            
+     ISABEL REYES                                 AVENIDA SAN ANTONIO 876                                 $    35,500.00            
+************************************************************************************************************************************
+*                                                 Reporte de Empleados Eventuales                                      Pagina:   8 *
+************************************************************************************************************************************
+              NOMBRE EMPLEADO                                  DIRECCION                                      SUELDO      10/04/2025
+     -----------------------------------          -----------------------------------                     --------------            
+     JIMENA MENDEZ                                AVENIDA ZARAGOZA 765                                    $    33,500.00            
+     NATALIA DOMINGUEZ                            PASEO DE LA REFORMA 876                                 $    39,250.00            
+     ROSA CERVANTES                               AVENIDA CHAPULTEPEC 543                                 $    36,750.00            
+     TERESA PEREZ                                 PASEO DE LOS TAMARINDOS 765                             $    37,500.00            
+     VALENTINA SALAZAR                            AVENIDA MIGUEL ALEMAN 432                               $    39,750.00            
+     SOLEDAD CASTRO                               AVENIDA CONSTITUYENTES 765                              $    37,750.00            
+     PAULINA MARTINEZ                             PASEO DE LOS ARCOS 876                                  $    35,000.00            
+     LUCIA REYES                                  AVENIDA REVOLUCION 159                                  $    38,500.00            
+     CECILIA VILLANUEVA                           PASEO INTERLOMAS 432                                    $    30,750.00            
+     JIMENA TREJO                                 AVENIDA BENITO JUAREZ 987                               $    35,500.00            
+     REGINA SALAZAR                               AVENIDA ZARAGOZA 321                                    $    33,000.00            
+     ADRIANA FUENTES                              PASEO DE LA REFORMA 543                                 $    39,250.00            
+     VERONICA AGUILAR                             AVENIDA UNIVERSIDAD 432                                 $    36,750.00            
+     PAOLA PEREZ                                  PASEO DE LOS TAMARINDOS 654                             $    37,250.00            
+     GABRIELA MARTINEZ                            AVENIDA CHAPULTEPEC 543                                 $    39,750.00            
+     SOLEDAD CASTRO                               AVENIDA CONSTITUYENTES 765                              $    37,750.00            
+     PAULINA MARTINEZ                             PASEO DE LOS ARCOS 876                                  $    35,000.00            
+     LUCIA REYES                                  AVENIDA REVOLUCION 159                                  $    38,500.00            
+     CECILIA VILLANUEVA                           PASEO INTERLOMAS 432                                    $    30,750.00            
+     JIMENA TREJO                                 AVENIDA BENITO JUAREZ 987                               $    35,500.00            
+     REGINA SALAZAR                               AVENIDA ZARAGOZA 321                                    $    33,000.00            
+     ADRIANA FUENTES                              PASEO DE LA REFORMA 543                                 $    39,250.00            
+     VERONICA AGUILAR                             AVENIDA UNIVERSIDAD 432                                 $    36,750.00            
+     PAOLA PEREZ                                  PASEO DE LOS TAMARINDOS 654                             $    37,250.00            
+     GABRIELA MARTINEZ                            AVENIDA CHAPULTEPEC 543                                 $    39,750.00            
+     VANESSA CASTILLO                             AVENIDA REVOLUCION 765                                  $    37,750.00            
+     ISABEL GONZALEZ                              PASEO DE LOS ARCOS 432                                  $    35,000.00            
+     MONICA MARTINEZ                              AVENIDA UNIVERSIDAD 654                                 $    38,500.00            
+     SOFIA FUENTES                                PASEO INTERLOMAS 321                                    $    30,750.00            
+     VALENTINA REYES                              AVENIDA SAN ANTONIO 876                                 $    35,500.00            
+     CECILIA MENDEZ                               AVENIDA ZARAGOZA 765                                    $    33,000.00            
+     JIMENA DOMINGUEZ                             PASEO DE LA REFORMA 876                                 $    39,250.00            
+     ANDRES CERVANTES                             AVENIDA CHAPULTEPEC 543                                 $    36,750.00            
+     JORGE PEREZ                                  PASEO DE LOS TAMARINDOS 765                             $    37,500.00            
+     EMILIO SANCHEZ                               AVENIDA MIGUEL ALEMAN 432                               $    39,750.00            
+     SOFIA DOMINGUEZ                              AVENIDA CONSTITUYENTES 765                              $    37,250.00            
+     VALERIA CASTILLO                             PASEO DE LOS ARCOS 876                                  $    35,750.00            
+     CECILIA SANDOVAL                             AVENIDA REVOLUCION 654                                  $    38,500.00            
+     MONICA GUTIERREZ                             PASEO INTERLOMAS 369                                    $    30,500.00            
+     ISABEL MENDEZ                                AVENIDA SAN ANTONIO 432                                 $    35,500.00            
+     JIMENA AGUILAR                               AVENIDA ZARAGOZA 876                                    $    33,000.00            
+     NATALIA MARTINEZ                             PASEO DE LA REFORMA 543                                 $    39,250.00            
+     ROSA VILLARREAL                              AVENIDA UNIVERSIDAD 432                                 $    36,750.00            
+     TERESA CERVANTES                             PASEO DE LOS TAMARINDOS 654                             $    37,500.00            
+     VALENTINA TREJO                              AVENIDA CHAPULTEPEC 543                                 $    39,750.00            
+     SOFIA CASTILLO                               AVENIDA CONSTITUYENTES 765                              $    37,750.00            
+     VALERIA GONZALEZ                             PASEO DE LOS ARCOS 543                                  $    35,500.00            
+     CECILIA MARTINEZ                             AVENIDA UNIVERSIDAD 654                                 $    38,500.00            
+     MONICA FUENTES                               PASEO INTERLOMAS 321                                    $    30,750.00            
+     ISABEL REYES                                 AVENIDA SAN ANTONIO 876                                 $    35,500.00            
+     JIMENA MENDEZ                                AVENIDA ZARAGOZA 765                                    $    33,500.00            
+     NATALIA DOMINGUEZ                            PASEO DE LA REFORMA 876                                 $    39,250.00            
+     ROSA CERVANTES                               AVENIDA CHAPULTEPEC 543                                 $    36,750.00            
+     TERESA PEREZ                                 PASEO DE LOS TAMARINDOS 765                             $    37,500.00            
+     VALENTINA SALAZAR                            AVENIDA MIGUEL ALEMAN 432                               $    39,750.00            
+************************************************************************************************************************************
+*                                                 Reporte de Empleados Eventuales                                      Pagina:   9 *
+************************************************************************************************************************************
+              NOMBRE EMPLEADO                                  DIRECCION                                      SUELDO      10/04/2025
+     -----------------------------------          -----------------------------------                     --------------            
+     SOLEDAD CASTRO                               AVENIDA CONSTITUYENTES 765                              $    37,750.00            
+     PAULINA MARTINEZ                             PASEO DE LOS ARCOS 876                                  $    35,000.00            
+     LUCIA REYES                                  AVENIDA REVOLUCION 159                                  $    38,500.00            
+     CECILIA VILLANUEVA                           PASEO INTERLOMAS 432                                    $    30,750.00            
+     JIMENA TREJO                                 AVENIDA BENITO JUAREZ 987                               $    35,500.00            
+     REGINA SALAZAR                               AVENIDA ZARAGOZA 321                                    $    33,000.00            
+     ADRIANA FUENTES                              PASEO DE LA REFORMA 543                                 $    39,250.00            
+     VERONICA AGUILAR                             AVENIDA UNIVERSIDAD 432                                 $    36,750.00            
+     PAOLA PEREZ                                  PASEO DE LOS TAMARINDOS 654                             $    37,250.00            
+     GABRIELA MARTINEZ                            AVENIDA CHAPULTEPEC 543                                 $    39,750.00            
+     VANESSA GUTIERREZ                            AVENIDA CONSTITUYENTES 543                              $    37,250.00            
+     ISABEL TREJO                                 PASEO DE LOS ARCOS 876                                  $    35,750.00            
+     MONICA CASTILLO                              AVENIDA REVOLUCION 432                                  $    38,500.00            
+     SOFIA SANDOVAL                               PASEO INTERLOMAS 654                                    $    30,750.00            
+     VALENTINA MENDEZ                             AVENIDA SAN ANTONIO 876                                 $    35,500.00            
+     CECILIA VILLANUEVA                           AVENIDA ZARAGOZA 543                                    $    33,500.00            
+     JIMENA AGUILAR                               PASEO DE LA REFORMA 876                                 $    39,500.00            
+     ANDRES CASTILLO                              AVENIDA UNIVERSIDAD 543                                 $    36,750.00            
+     JORGE FUENTES                                PASEO DE LOS TAMARINDOS 654                             $    37,250.00            
+     EMILIO SANCHEZ                               AVENIDA CHAPULTEPEC 543                                 $    39,750.00            
+     SOLEDAD CASTRO                               AVENIDA CONSTITUYENTES 765                              $    37,750.00            
+     PAULINA MARTINEZ                             PASEO DE LOS ARCOS 876                                  $    35,000.00            
+     LUCIA REYES                                  AVENIDA REVOLUCION 159                                  $    38,500.00            
+     CECILIA VILLANUEVA                           PASEO INTERLOMAS 432                                    $    30,750.00            
+     JIMENA TREJO                                 AVENIDA BENITO JUAREZ 987                               $    35,500.00            
+     REGINA SALAZAR                               AVENIDA ZARAGOZA 321                                    $    33,000.00            
+     ADRIANA FUENTES                              PASEO DE LA REFORMA 543                                 $    39,250.00            
+     VERONICA AGUILAR                             AVENIDA UNIVERSIDAD 432                                 $    36,750.00            
+     PAOLA PEREZ                                  PASEO DE LOS TAMARINDOS 654                             $    37,250.00            
+     GABRIELA MARTINEZ                            AVENIDA CHAPULTEPEC 543                                 $    39,750.00            
+     VANESSA CASTRO                               AVENIDA CONSTITUYENTES 543                              $    37,750.00            
+     ISABEL GONZALEZ                              PASEO DE LOS ARCOS 876                                  $    35,500.00            
+     MONICA MARTINEZ                              AVENIDA UNIVERSIDAD 543                                 $    38,500.00            
+     SOFIA FUENTES                                PASEO INTERLOMAS 765                                    $    30,750.00            
+     VALENTINA REYES                              AVENIDA SAN ANTONIO 543                                 $    35,500.00            
+     CECILIA MENDEZ                               AVENIDA ZARAGOZA 432                                    $    33,500.00            
+     JIMENA DOMINGUEZ                             PASEO DE LA REFORMA 543                                 $    39,250.00            
+     ANDRES CERVANTES                             AVENIDA CHAPULTEPEC 765                                 $    36,750.00            
+     JORGE PEREZ                                  PASEO DE LOS TAMARINDOS 654                             $    37,500.00            
+     EMILIO SANCHEZ                               AVENIDA MIGUEL ALEMAN 543                               $    39,750.00            
+     SOFIA CASTILLO                               AVENIDA REVOLUCION 765                                  $    37,750.00            
+     VALERIA GONZALEZ                             PASEO DE LOS ARCOS 432                                  $    35,000.00            
+     CECILIA MARTINEZ                             AVENIDA UNIVERSIDAD 654                                 $    38,500.00            
+     MONICA FUENTES                               PASEO INTERLOMAS 765                                    $    30,750.00            
+     ISABEL REYES                                 AVENIDA SAN ANTONIO 543                                 $    35,500.00            
+     JIMENA MENDEZ                                AVENIDA ZARAGOZA 432                                    $    33,500.00            
+     NATALIA DOMINGUEZ                            PASEO DE LA REFORMA 543                                 $    39,250.00            
+     ROSA CERVANTES                               AVENIDA CHAPULTEPEC 765                                 $    36,750.00            
+     TERESA PEREZ                                 PASEO DE LOS TAMARINDOS 654                             $    37,500.00            
+     VALENTINA SALAZAR                            AVENIDA MIGUEL ALEMAN 543                               $    39,750.00            
+     SOFIA DOMINGUEZ                              AVENIDA CONSTITUYENTES 654                              $    37,750.00            
+     VALERIA CASTILLO                             PASEO DE LOS ARCOS 765                                  $    35,250.00            
+     CECILIA SANDOVAL                             AVENIDA REVOLUCION 987                                  $    38,500.00            
+     MONICA GUTIERREZ                             PASEO INTERLOMAS 654                                    $    30,750.00            
+     ISABEL MENDEZ                                AVENIDA SAN ANTONIO 876                                 $    35,500.00            
+************************************************************************************************************************************
+*                                                 Reporte de Empleados Eventuales                                      Pagina:  10 *
+************************************************************************************************************************************
+              NOMBRE EMPLEADO                                  DIRECCION                                      SUELDO      10/04/2025
+     -----------------------------------          -----------------------------------                     --------------            
+     JIMENA AGUILAR                               AVENIDA ZARAGOZA 543                                    $    33,000.00            
+     NATALIA MARTINEZ                             PASEO DE LA REFORMA 432                                 $    39,250.00            
+     ROSA VILLARREAL                              AVENIDA UNIVERSIDAD 321                                 $    36,750.00            
+     TERESA CERVANTES                             PASEO DE LOS TAMARINDOS 765                             $    37,500.00            
+     VALENTINA TREJO                              AVENIDA CHAPULTEPEC 543                                 $    39,750.00            
+                                                                                                                                    
+                                                   CALCULADO                                                                        
+                                                   Total Empleados Leidos:      1,000                                               
+                                                   Total Empleados Grabados:      500                                               
+                                                   Total Sueldo Actual:       $   40,985,800.00                                     
+                                                   Total Sueldo Incrementado: $   19,228,702.50                                     

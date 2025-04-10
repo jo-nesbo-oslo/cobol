@@ -10,6 +10,7 @@
        CONFIGURATION SECTION.
        SOURCE-COMPUTER.
        OBJECT-COMPUTER.
+       SPECIAL-NAMES. C01 IS LINE-BREAK.
 
        INPUT-OUTPUT SECTION.
        FILE-CONTROL.
@@ -74,9 +75,13 @@
        01  WS-WORK-AREAS.
 		   05  FILE-CHECK-KEY    PIC X(2).
            05 WS-NORMAL-NUMBER   PIC S9(9)V99.
-           05 WS-COMP3-VALUE    PIC S9(9)V99 COMP-3.
-           05 WS-ENABLE-DISPLAY PIC X VALUE "N".
-           05 WS-SEPARATOR PIC X(30) VALUE ALL "*".
+           05 WS-COMP3-VALUE     PIC S9(9)V99 COMP-3.
+           05 WS-ENABLE-DISPLAY  PIC X VALUE "N".
+           05 WS-SEPARATOR       PIC X(30) VALUE ALL "*".
+           05 WS-PAGE            PIC 9(3) VALUE 1.
+           05 WS-COUNTER-LINES   PIC 9(2) VALUE ZEROS.
+           77 WS-MAX-LINES  PIC 9(2) VALUE 60. 
+
 
        01  HEADING-LINE-TITLE-1.
            05 FILLER              PIC X(132)  VALUE ALL '*'.
@@ -86,7 +91,10 @@
            05 FILLER              PIC X(49) VALUE SPACES.
            05 FILLER              PIC X(31)  
                VALUE 'Reporte de Empleados Eventuales'.
-           05 FILLER              PIC X(50) VALUE SPACES.
+           05 FILLER              PIC X(38) VALUE SPACES.
+           05 FILLER              PIC X(8) VALUE "Pagina: ".
+           05 WS-HEADING-PAGE     PIC ZZ9.
+           05 FILLER              PIC X VALUE SPACES.
            05 FILLER              PIC X VALUE '*'.
 
        01  HEADING-LINE.
@@ -98,9 +106,9 @@
            05 FILLER              PIC X(6) VALUE 'SUELDO'.
            05 FILLER              PIC X(6) VALUE SPACES.
            05 HEAD-DATE.
-              10 HEAD-MONTH       PIC X(2).
-              10 FILLER           PIC X VALUE '/'.
               10 HEAD-DAY         PIC X(2).
+              10 FILLER           PIC X VALUE '/'.
+              10 HEAD-MONTH       PIC X(2).
               10 FILLER           PIC X VALUE '/'.
               10 HEAD-YEAR        PIC X(4).
 
@@ -228,6 +236,14 @@
            MOVE SUELDO TO DET-SUELDO.
            PERFORM 0140-WRITE-DETAIL-LINE.
            PERFORM 0145-WRITE-DETAIL-OUTPUT-LINE.
+           ADD 1 TO WS-COUNTER-LINES.
+           IF WS-COUNTER-LINES GREATER WS-MAX-LINES then
+               ADD 1 TO WS-PAGE
+               PERFORM 0120-WRITE-HEADING-LINE-TITLE THRU 
+                       0130-WRITE-HEADING-LINE
+               MOVE 6 TO WS-COUNTER-LINES
+           END-IF.
+
 
        0115-PROCESS-RECORDS-TO-WRITE-DISP.
            IF WS-ENABLE-DISPLAY = "Y"
@@ -238,17 +254,22 @@
 
        0120-WRITE-HEADING-LINE-TITLE.
       *************************************************************
-      *     The following move commands get the current date for  *
-      *     the report header.                                    *
+      *     The following move commands get the current date      *
+      *      and page for the report header.                      *
       *************************************************************.
            MOVE HEADING-LINE-TITLE-1 TO PRINT-LINE.
-           WRITE PRINT-LINE.
+           IF WS-COUNTER-LINES NOT GREATER WS-MAX-LINES THEN
+               WRITE PRINT-LINE
+           ELSE
+               WRITE PRINT-LINE AFTER ADVANCING 1 LINE
+           END-IF.
       * AFTER ADVANCING 1 LINE.
+           MOVE WS-PAGE TO WS-HEADING-PAGE.
            MOVE HEADING-LINE-TITLE-2 TO PRINT-LINE.
            WRITE PRINT-LINE AFTER ADVANCING 1 LINE.
            MOVE HEADING-LINE-TITLE-1 TO PRINT-LINE.
            WRITE PRINT-LINE AFTER ADVANCING 1 LINE.
-
+           MOVE 6 TO WS-COUNTER-LINES.
 
        0130-WRITE-HEADING-LINE.
       *************************************************************
