@@ -3,6 +3,7 @@
        AUTHOR.     JARS.
        DATE-WRITTEN.              03/04/2025.
        DATE-COMPILED.             10/04/2025.
+       SECURITY.                  NO ES CONFIDENCIAL.
       ***************************************************************
       *  This program reads a file containing employee information  *
       *   and creates a new file for COMP-3 conversion.             *

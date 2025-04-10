@@ -3,6 +3,7 @@
        AUTHOR.     JARS.
        DATE-WRITTEN.              08/04/2025.
        DATE-COMPILED.             10/04/2025.
+       SECURITY.                  NO ES CONFIDENCIAL.
       ***************************************************************
       *  This program reads a file containing employee information  *
       *   and prints a report and a file.                           *
