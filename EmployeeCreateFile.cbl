@@ -18,9 +18,8 @@
               FILE STATUS IS FILE-CHECK-KEY
               ORGANIZATION IS LINE SEQUENTIAL.
             SELECT EMPLOYEE-OUTPUT-FILE ASSIGN TO 
-               "./archivos/archive/EMPLOYEE_OUTPUT.DAT"
+               "./archivos/entrada/EMPLOYEE_INPUT_COMP-3.DAT"
               ORGANIZATION IS LINE SEQUENTIAL.
-
 
        DATA DIVISION.
        FILE SECTION.
@@ -53,8 +52,6 @@
            05 WS-NORMAL-NUMBER   PIC S9(9)V99.
            05 WS-COMP3-VALUE    PIC S9(9)V99 COMP-3.
 
-
-       
 
        PROCEDURE DIVISION.
 
@@ -96,7 +93,6 @@
 
        0125-WRITE-DETAIL-OUTPUT-LINE.
            MOVE SUELDO TO WS-COMP3-VALUE.
-
            MOVE EMPLEADO-ID TO EMP-ID.
            MOVE NOMBRE-EMPLEADO TO NOMBRE-EMP.
            MOVE DIRECCION TO DIRECCION-EMP.

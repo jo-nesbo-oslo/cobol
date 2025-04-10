@@ -75,8 +75,8 @@
 		   05  FILE-CHECK-KEY    PIC X(2).
            05 WS-NORMAL-NUMBER   PIC S9(9)V99.
            05 WS-COMP3-VALUE    PIC S9(9)V99 COMP-3.
-
            05 WS-ENABLE-DISPLAY PIC X VALUE "N".
+           05 WS-SEPARATOR PIC X(30) VALUE ALL "*".
 
        01  HEADING-LINE-TITLE-1.
            05 FILLER              PIC X(132)  VALUE ALL '*'.
@@ -113,7 +113,6 @@
            05 FILLER              PIC X(14) VALUE ALL '-'.
            05 FILLER              PIC X(8) VALUE SPACES.
 
-
        01  DETAIL-LINE.
            05 FILLER               PIC X(5)  VALUE SPACES.
            05 DET-NOMBRE-EMPLEADO PIC X(40).
@@ -122,7 +121,6 @@
            05 FILLER               PIC X(1)  VALUE SPACES.
            05 DET-SUELDO      PIC $ZZ,ZZZ,ZZ9.99.
            05 FILLER               PIC X(2)  VALUE SPACES.
-
 
        01  TOTAL-CALCULADO.
            05 FILLER               PIC X(51)  VALUE SPACES.
@@ -136,7 +134,7 @@
            05 FILLER               PIC X(24)  
                VALUE 'Total Empleados Leidos: '.
            05 FILLER               PIC X(5)  VALUE SPACES.
-           05 TOTAL-EMP-LEIDOS     PIC Z9.
+           05 TOTAL-EMP-LEIDOS     PIC Z,ZZ9.
            05 FILLER               PIC X(48)  VALUE SPACES.
        
        01  TOTAL-LINE-EMP-GRABADOS.
@@ -146,7 +144,7 @@
            05 FILLER               PIC X(26)  
                VALUE 'Total Empleados Grabados: '.
            05 FILLER               PIC X(3)  VALUE SPACES.
-           05 TOTAL-EMP-GRABADOS     PIC Z9.
+           05 TOTAL-EMP-GRABADOS     PIC Z,ZZ9.
            05 FILLER               PIC X(50)  VALUE SPACES.
        
        01  TOTAL-LINE-SUELDO-ACTUAL.
@@ -156,7 +154,7 @@
            05 FILLER               PIC X(21)  
                VALUE 'Total Sueldo Actual: '.
            05 FILLER               PIC X(6)  VALUE SPACES.
-           05 TOTAL-SUELDO-ACTUAL     PIC $Z,ZZZ,ZZ9.99.
+           05 TOTAL-SUELDO-ACTUAL     PIC $Z,ZZZ,ZZZ,ZZ9.99.
            05 FILLER               PIC X(47)  VALUE SPACES.
        
        01  TOTAL-LINE-SUELDO-INCREMENTADO.
@@ -165,7 +163,7 @@
            05 FILLER               PIC X(30)  VALUE SPACES.
            05 FILLER               PIC X(27)  
                VALUE 'Total Sueldo Incrementado: '.
-           05 TOTAL-SUELDO-INCREMENTADO PIC $Z,ZZZ,ZZ9.99.
+           05 TOTAL-SUELDO-INCREMENTADO PIC $Z,ZZZ,ZZZ,ZZ9.99.
            05 FILLER               PIC X(53)  VALUE SPACES.
 
        PROCEDURE DIVISION.
@@ -202,13 +200,6 @@
               IF TIPO-EMPLEADO="E"
                 PERFORM 0110-PROCESS-RECORDS-TO-WRITE-EMP-E
               END-IF
-
-      *>   DISPLAY EMPLEADO-ID
-      *>   DISPLAY NOMBRE-EMPLEADO
-      *>   DISPLAY DIRECCION
-      *>   DISPLAY SUELDO
-      *>   DISPLAY TIPO-EMPLEADO
-      *>   DISPLAY "*****"
    
               READ EMPLOYEE-FILE
               AT END SET ENDOF-INPUTFILE TO TRUE
@@ -216,9 +207,6 @@
            END-PERFORM.
            PERFORM 0150-WRITE-TOTAL-CALCULADO THRU 
                    0190-WRITE-TOTAL-LINE-SUELDO-INCREMENTADO.
-      *     PERFORM 0160-WRITE-TOTAL-LINE-EMP-GRABADOS.
-      *     PERFORM 0170-WRITE-TOTAL-LINE-SUELDO-ACTUAL.
-      *     PERFORM 0180-WRITE-TOTAL-LINE-SUELDO-INCREMENTADO.
 
        0105-PROCESS-RECORDS-DISPLAY.
            IF WS-ENABLE-DISPLAY="Y"
@@ -227,7 +215,7 @@
                DISPLAY DIRECCION
                DISPLAY SUELDO
                DISPLAY TIPO-EMPLEADO
-               DISPLAY "*****"
+               DISPLAY WS-SEPARATOR
            END-IF.
 
        0110-PROCESS-RECORDS-TO-WRITE-EMP-E.
@@ -245,7 +233,7 @@
            IF WS-ENABLE-DISPLAY = "Y"
                DISPLAY "SUELDO ACTUAL: ", SUELDO
                DISPLAY "SUELDO INCREMENTADO: ", WS-NORMAL-NUMBER
-               DISPLAY "*****"
+               DISPLAY WS-SEPARATOR
            END-IF.
 
        0120-WRITE-HEADING-LINE-TITLE.
@@ -282,7 +270,6 @@
 
        0145-WRITE-DETAIL-OUTPUT-LINE.
            MOVE SUELDO TO WS-COMP3-VALUE.
-
            MOVE EMPLEADO-ID TO EMP-ID.
            MOVE NOMBRE-EMPLEADO TO NOMBRE-EMP.
            MOVE DIRECCION TO DIRECCION-EMP.
@@ -300,11 +287,6 @@
            WRITE PRINT-LINE AFTER ADVANCING 1 LINE.
 
        0160-WRITE-TOTAL-LINE-EMP-LEIDOS.
-      *     MOVE SPACES TO PRINT-LINE.
-      *     WRITE PRINT-LINE AFTER ADVANCING 1 LINE.
-      *     MOVE WS-CALCULADO TO PRINT-LINE.
-      *     WRITE PRINT-LINE AFTER ADVANCING 1 LINE.
-      *     PERFORM 0128-WRITE-TOTAL-CALCULADO.
            MOVE WS-TOTAL-EMP-LEIDOS TO TOTAL-EMP-LEIDOS.
            MOVE TOTAL-LINE-EMP-LEIDOS TO PRINT-LINE.
            WRITE PRINT-LINE AFTER ADVANCING 1 LINE.

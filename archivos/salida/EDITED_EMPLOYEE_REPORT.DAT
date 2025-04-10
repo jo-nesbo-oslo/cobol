@@ -1,7 +1,7 @@
 ************************************************************************************************************************************
 *                                                 Reporte de Empleados Eventuales                                                  *
 ************************************************************************************************************************************
-              NOMBRE EMPLEADO                                  DIRECCION                                      SUELDO      04/08/2025
+              NOMBRE EMPLEADO                                  DIRECCION                                      SUELDO      04/09/2025
      -----------------------------------          -----------------------------------                     --------------            
      MARIA FERNANDA GARCIA PEREZ                  CALLE HIDALGO 56, GUADALAJARA                           $    18,750.75            
      DANIELA ALEJANDRA CASTILLO RUIZ              CALLE BENITO JUAREZ 678, MONTERREY                      $    19,250.90            
@@ -10,7 +10,7 @@
      VALERIA GUADALUPE MENDOZA REYES              CALLE INDEPENDENCIA 345, OAXACA                         $    19,750.65            
                                                                                                                                     
                                                    CALCULADO                                                                        
-                                                   Total Empleados Leidos:      11                                                  
-                                                   Total Empleados Grabados:     5                                                  
-                                                   Total Sueldo Actual:       $  192,507.20                                         
-                                                   Total Sueldo Incrementado: $   99,753.71                                         
+                                                   Total Empleados Leidos:         11                                               
+                                                   Total Empleados Grabados:        5                                               
+                                                   Total Sueldo Actual:       $      192,507.20                                     
+                                                   Total Sueldo Incrementado: $       99,753.71                                     
