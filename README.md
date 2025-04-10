@@ -26,7 +26,7 @@ Los siguientes programas leen el archivo generado y procesan la información par
 Para compilar un programa COBOL, usar el siguiente comando:
 
 ```bash
-cobc -x [nombre_programa]
+cobc -x [nombre_programa].cbl
 ```
 
 Para ejecutar el programa compilado:
