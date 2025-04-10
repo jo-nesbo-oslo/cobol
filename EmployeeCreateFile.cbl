@@ -3,7 +3,7 @@
        AUTHOR.     JARS.
       ***************************************************************
       *  This program reads a file containing employee information  *
-      *   and creates a new file fir COMP-3 conversion.             *
+      *   and creates a new file for COMP-3 conversion.             *
       ***************************************************************
 
        ENVIRONMENT DIVISION.

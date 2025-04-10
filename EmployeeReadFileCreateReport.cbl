@@ -2,8 +2,8 @@
        PROGRAM-ID. EMPLOYEE-READ-FILE-CREATE-REP.
        AUTHOR.     JARS.
       ***************************************************************
-      *  This program reads a file containing employee person    *
-      *  information and prints a report and a file.             *
+      *  This program reads a file containing employee information  *
+      *   and prints a report and a file.                           *
       ***************************************************************
 
        ENVIRONMENT DIVISION.
